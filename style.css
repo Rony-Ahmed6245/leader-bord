@@ -107,27 +107,32 @@ span{
 }
 .star{
     display: flex;
+
+    align-items: center;
 }
-.star img{
-    width: 15px;
+
+.fa-star.filled{
+    color: rgb(255, 136, 0);
 }
-.star-text{
-    font-size: 10px;
-    margin-left: 10px;
+.fa-star.unfilled{
+    color: rgb(177, 177, 177);
 }
+
 .clock{
     display: flex;
-    background-color: bisque;
-   padding-right: 5px;
-    border-radius: 50px;
-    background-color: rgb(242, 187, 187);
+    align-items: center;
+ }
+
+ .star-text{
+    margin-left: 2px;
+ }
+
+ .clock{
    
-}
-.clock img{
-    width: 20px;
-}
-.clock-text{
-    margin-left: 5px;
-    font-size: 12px;
     color: red;
-} 
+   
+
+ }
+ .clock-text{
+    margin-left: 2px;
+ }
